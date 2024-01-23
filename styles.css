@@ -1,0 +1,80 @@
+body {
+    background-image: url(ktn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #050101;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #85828293;
+  }
+  
+  .quiz-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .quiz-questions {
+    text-align: center;
+  }
+  
+  .answer-option {
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  .answer-option button {
+    border: 1px solid #050000;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .answer-option button:hover {
+    background-color: #95ff0a9f;
+  }
+  
+  .answer-option button:focus {
+    outline: none;
+  }
+  
+  .answer-option button.selected {
+    background-color: #95ff0a9f;
+  }
+  
+  .submit-button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .submit-button:hover {
+    background-color: #95ff0a9f;
+    color: #050101;
+  }
+  
